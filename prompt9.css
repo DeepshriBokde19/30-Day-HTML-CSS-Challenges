@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;width: 100%;
+    /* background-color: rgba(37, 42, 206, 0.507); */
+}
+.container nav{
+    height: 12vh;
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container nav .main a{
+  text-decoration: none;
+  padding-left: 4vh;
+  color: rgb(4, 4, 151);
+  font-weight: 600;
+}
+.container nav button{
+    margin-right: 5vw;
+    width: 10vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: none;
+    font-size: 2vh;
+    font-weight: 600;
+    color:  rgb(4, 4, 151);;
+}
+.container nav .logo{
+    margin-left: 4vw;
+    font-size: 4vh;
+    font-weight: 600;
+    color:  rgb(4, 4, 151);
+}
+
+
+
+
+
+
+.box{
+    display: flex;
+    height: 80vh;
+    background: rgb(239, 120, 120);
+}
+
+
+.box .left{
+    padding-top: 19vh;
+    padding-left: 5vw;
+    height: 40vh;
+    width: 50vw;
+    /* background-color: brown; */
+}
+.box .right{
+    height: 40vh;
+    width: 50vw;
+    /* background-color: rgb(42, 165, 58); */
+}
+
+
+.box .left h2{
+    font-size: 6vh;
+    padding-bottom: 6vh;
+    color:rgb(4, 4, 151); ;
+}
+.box .left button{
+    margin-top: 7vh;
+    width: 9vw;
+    border-radius: 10px;
+    background-color: rgb(146, 231, 231);
+    font-size: 2.2vh;
+    border: none;
+    height: 5vh;
+    font-weight: 600;
+    color:white;
+    background-color: rgb(4, 4, 151);
+}
+.box .left p{
+    color: rgb(4, 4, 151);
+}
+
+
+.right img{
+    padding-top: 7vh;
+    height: 52vh;
+    width: 42vw;
+    border-radius: 10px;
+}
+
+ 
+
+@media (max-width:786px) {
+    .box .left h2{
+        font-size:4vh;
+    }
+    .box .left button{
+        width: 10vw;
+        font-size: 1.4vh;
+    }
+    .box .left p{
+        font-size: 2vh;
+    }
+  .box .right img{
+    width: auto;
+    height: 22vh;  
+}
+ nav .logo p{
+    font-size: 2vh;
+ }
+}nav .main a{
+    font-size: 2vh;
+    padding-right: 5vh;
+    gap: 2vw;
+}
+nav button{
+    display: none;
+}
+
+
+
+
+
+@media (max-width:320px) {
+    .box{
+       width: 320px;
+       height: 547px;
+    }
+.box .left h2{
+    font-size: 3vh;
+    height: 12vh;
+    /* width: 12vw; */
+    margin-bottom: 1vh;
+    /* padding-top:14vh;
+    padding-left: 29vw; */
+}
+    .box .right img{
+       margin-right: 99vw;
+       height: 19vh;
+       width: 49vw;
+    }
+    .box .left p{
+        width: 320;
+    }
+    .box .left button{
+        width: 32vw;
+        font-size: 2vh;
+    }
+    nav .main a{
+        font-size: 2vh;
+    }
+    nav .main {
+        /* display: none; */
+    }
+    }
+
