@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(128, 128, 128, 0.995);
+}
+
+
+
+.container .header {
+    padding-top: 10vh;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.container .header h1{
+    display: flex;
+    padding-bottom: 3vh;
+    align-items: center;
+    justify-content: center;
+}
+.container .header p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3vh;
+    /* padding-top: 12vh; */
+}
+
+
+
+
+/* box*/
+.box {
+display: flex;
+gap: 1vw;
+align-items: center;
+justify-content: space-evenly;
+}
+
+
+.box .left{
+    width: 28vw;
+    height: 70vh;
+    background-color: rgba(0, 255, 255, 0.692);
+    /* padding-left: 3vw; */
+    
+}
+.box .left p{
+    padding-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-weight: 700;
+    font-size: 3vh;
+}
+.box .left h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vh;
+    font-size: 6vh;
+    color: white;
+}
+
+.box .left .lb{
+    height: 51vh;
+    /* padding-left: 2vw; */
+    width: 27vw;
+    background-color: rgba(81, 84, 84, 0.66);
+    margin-left: 0.6vw;
+    margin-top: 2vh;
+}
+
+.box .left .lb button{
+    width: 12vw;
+    height: 8vh;
+   margin-left: 7vw;
+   margin-top: 5vh;
+   font-weight: 600;
+   color:  rgba(128, 128, 128, 0.811);
+}
+.box .left .lb p{
+    color:  aliceblue
+}
+
+
+
+
+
+
+
+
+.box .middle{
+    width: 28vw;
+    height: 70vh;
+    background-color: rgb(255, 98, 0);}
+    
+    .box .middle p{
+        padding-top: 4vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:white;
+        font-weight: 700;
+        font-size: 3vh;
+    }
+    .box .middle h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2vh;
+        font-size: 6vh;
+        color: white;
+    }
+    
+    .box .middle .mb{
+        height: 51vh;
+        /* padding-left: 2vw; */
+        width: 27vw;
+        background-color: rgba(81, 84, 84, 0.66);
+        margin-left: 0.6vw;
+        margin-top: 2vh;
+    }
+    
+    .box .middle .mb button{
+        width: 12vw;
+        height: 8vh;
+       margin-left: 7vw;
+       margin-top: 5vh;
+       font-weight: 600;
+       color:  rgba(128, 128, 128, 0.811);
+    }
+    .box .middle .mb p{
+        color:  aliceblue
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box .right{
+    width: 28vw;
+    height: 70vh;
+    background-color: rgba(15, 237, 237, 0.692);
+}
+.box .right p{
+    padding-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-weight: 700;
+    font-size: 3vh;
+}
+.box .right h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vh;
+    font-size: 6vh;
+    color: white;
+}
+
+.box .right .rb{
+    height: 51vh;
+    /* padding-left: 2vw; */
+    width: 27vw;
+    background-color: rgba(81, 84, 84, 0.66);
+    margin-left: 0.6vw;
+    margin-top: 2vh;
+}
+
+.box .right .rb button{
+    width: 12vw;
+    height: 8vh;
+   margin-left: 8vw;
+   margin-top: 4vh;
+   font-weight: 600;
+   color:  rgba(128, 128, 128, 0.811);
+}
+.box .left .rb p{
+    color:  aliceblue
+}
+
+
+
+
+/*  for tablet */
+
+/* responsive */
+@media (max-width:786px){
+    .header h1{
+        color: blueviolet;
+    }
+    .box .left .lb p{
+        font-size: 2vh;
+    }
+    .box .middle .mb p{
+        font-size: 2vh;
+    }
+    .box .right .rb p{
+        font-size: 2vh;
+    }
+    .box .left h1 p {
+        font-size: 1vh;
+    }
+    .box .middle h1 p{
+        font-size: 1vh;
+    }
+    .box .right h1 p{
+        font-size: 1vh;
+    }
+    .box .left button {
+        width: 7vw;
+        height: 0.1vh;
+        margin-top: 18vh;
+    }
+    .box .middle button {
+        width: 7vw;
+        height: 0.1vh;
+        margin-top: 18vh;
+     }
+     .box .right button {
+        width: 7vw;
+        height: 0.1vh;
+        margin-top: 18vh;
+     }
+
+     .box .left .lb{
+        height: 50;
+        width: 786;
+     }
+     .box .middle .mb{
+        height: 50;
+        width:786;
+     }
+     .box .right .rb{
+        height: 51vh;
+        width: 786;
+     }
+}
+/* for phone */
+@media (max-width:480px) {
+    .header h1{
+        color: rgb(226, 137, 43);
+    }
+    .container .header,.box .left .right .middle{
+        width: 100%;
+    }
+}
