@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;}
+    .allbox{
+        margin-top: 10vh;
+    }
+    .box{
+        height: 80vh;
+        width: 90vw;
+        background-color: #004d4d;
+        margin-left: 5vw;
+        /* margin-top: 4vh; */
+    }
+
+/* .container .header p{
+    font-weight: 900;
+    font-size: 4vh;
+    text-align: center;
+} */
+
+.container .header img{
+    height: 8vh;
+    margin-left:40vw;
+}
+.allbox{
+    display: flex;
+}
+.box1{
+    height: 70vh;
+    width: 33vw;
+    /* background-color: aqua; */
+}
+.box1 p{
+    font-weight: 550;
+    padding-top: 3vh;
+    padding-left: 5vw;
+    color: #0bc6c6;
+    }
+h4{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.para1{
+    margin-top: 8vh;
+}
+.logo {
+    margin-left: 4vw;
+    gap: 1vw;
+}
+
+
+
+
+
+
+
+
+.box2{
+    height: 70vh;
+    width: 33vw;
+    
+}
+.box2 p{
+    font-weight: 550;
+     padding-top: 3vh; 
+    /* padding-left: 5vw; */ 
+    text-align: center;
+    
+    color: #0bc6c6;
+}
+
+
+
+
+
+.box3{
+    height: 70vh;
+    width: 33vw;
+   
+}
+.box3 p{
+    font-weight: 550;
+     padding-top: 3vh; 
+    /* padding-left: 5vw; */ 
+    text-align: center;
+    
+    color: #0bc6c6;
+}
+
+
+
+
+
+.box4{
+    height: 70vh;
+    width: 33vw;
+    
+}
+/* .parts{
+    display: flex;
+} */
+.box4 .parts .part1 img{
+    height: 13vh;
+    margin-left: 2vh;
+}
+
+.box4 .parts .part1{
+    display: flex;
+}
+.box4 .parts .part2 img{
+    height: 13vh;
+    margin-left: 3vh;
+
+}
+.box4 .parts .part2{
+    display: flex;
+}
+.box4 .parts h4{
+margin-top: 1vh;
+margin-right: 12vw;
+}
+hr{
+    border: 1px solid   #0bc6c6;;
+}
+
+/* mobil */
+@media (max-width:475px) {
+
+.container{
+    height: 300vh;
+   width: 100vh;
+   
+.header img{
+   padding-left: 0.1vh;
+   height: 8vh;
+}
+.box{
+    height: 300vh;
+    width: 110vw;
+     /* background-color: red;  */
+}
+img{
+    height: 2h;
+}
+.allbox{
+    font-size: 2vh;
+    flex-direction: column;
+}
+   
+}
+.box1 {
+    width: 110vw;
+     background-color: blueviolet; 
+    text-align: center;
+}
+.box2{
+    width: 110vw;
+    /* background-color: blueviolet;  */
+   text-align: center;
+}
+.box3{
+    width: 110vw;
+     /* background-color: blueviolet;  */
+    text-align: center;
+}
+.box4{
+    width: 110vw;
+     /* background-color: blueviolet;  */
+    text-align: center;
+}
+.box4 .parts{
+    margin-left: 23vw;
+}
+    hr{
+        display: none;
+    }
+
+
+}
+
